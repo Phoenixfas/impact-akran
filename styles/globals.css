@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "K2D-ExtraBold";
+  src: url("/fonts/K2D-ExtraBold.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "K2D-Bold";
+  src: url("/fonts/K2D-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "K2D-Regular";
+  src: url("/fonts/K2D-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.k2d {
+  font-family: "K2D-Regular", sans-serif;
+}
+.k2d-bold {
+  font-family: "K2D-Bold", sans-serif;
+}
+.k2d-extrabold {
+  font-family: "K2D-ExtraBold", sans-serif;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #0a0a0a;
+  --primary: #003e95;
+  --secondary: #00a7f5;
+  --tertiary: #92dcff;
+  --gradient: linear-gradient(
+    45deg,
+    var(--primary),
+    var(--secondary),
+    var(--tertiary)
+  );
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ffffff;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
