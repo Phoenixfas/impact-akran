@@ -1,4 +1,5 @@
-import AboutSection from "./AboutSection";
+import Services from "@/components/Services";
+// import AboutSection from "./AboutSection";
 import Achievements from "./Achievements";
 import BlogSection from "./BlogSection";
 import Cta from "./Cta";
@@ -12,7 +13,8 @@ export default function Home() {
   return (
     <div className="w-full relative overflow-hidden">
       <Hero />
-      <AboutSection />
+      {/* <AboutSection /> */}
+      <Services />
       <Achievements />
       <ServiceSection />
       <MadeWithLove />

@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import style from "../styles/layout.module.css";
 import Image from "next/image"
 import Link from "next/link"
-import { usePathname } from "next/navigation";
+// import { usePathname } from "next/navigation";
 import { CgClose, CgMenuRight } from "react-icons/cg"
 import NavBarMenu from "./NavBarMenu";
 // import { FaCalendarAlt } from 'react-icons/fa';

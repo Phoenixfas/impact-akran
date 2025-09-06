@@ -92,9 +92,10 @@
 }
 .circle {
   position: absolute;
-  width: 125%;
-  transform: translateX(-10%) translateY(-30%);
-  /* width: 125%; */
+  bottom: 0%;
+  right: 0%;
+  transform: translateX(-40%) translateY(15%);
+  width: 15rem;
   /* background-color: red; */
 }
 .shine {
@@ -225,21 +226,26 @@
   z-index: 1;
 }
 .servicesTop {
-  width: 80%;
+  width: 100%;
+  padding: 0 150px;
   display: flex;
   align-items: center;
-  margin: 200px 0 100px;
+  gap: 50px;
+  margin: 150px 0;
 }
 .servicesTop__left {
-  flex: 1;
+  position: relative;
+  max-width: 500px;
   /* background-color: yellow; */
 }
 .servicesTop__left h1 {
+  position: relative;
   font-size: 3rem;
   font-weight: 700;
   color: #1a3d52;
 }
 .noCircle {
+  /* font-size: 2.5rem; */
   color: #000;
   position: relative;
   z-index: 1;
@@ -254,12 +260,20 @@
 }
 .servicesTop__right {
   flex: 1;
-  border-left: #ccc solid 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  /* background-color: red; */
+}
+.servicesTop__right__i {
+  flex: 1;
+  /* border-left: #ccc solid 5px; */
   /* background-color: red; */
 }
 .service {
+  /* background-color: yellow; */
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
   border-left: #ccc solid 5px;
   transform: translateX(-5px);
