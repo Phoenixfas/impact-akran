@@ -15,6 +15,7 @@ const blogs = [
     image: "https://picsum.photos/720/1280",
     date: "2025-08-10",
     fileAttached: "https://picsum.photos/720/1280",
+    component: "Twist",
   },
   {
     id: "2",
@@ -32,6 +33,7 @@ const blogs = [
     image: "https://picsum.photos/720/1281",
     date: "2025-08-11",
     fileAttached: "https://picsum.photos/720/1281",
+    component: "Square",
   },
   {
     id: "3",
@@ -50,6 +52,61 @@ const blogs = [
     image: "https://picsum.photos/720/1282",
     date: "2025-08-12",
     fileAttached: "https://picsum.photos/720/1282",
+    component: "Shine",
+  },
+  {
+    id: "4",
+    title: "Maximizing ROI with Strategic Exhibition Stand Placement",
+    content:
+      "When it comes to trade shows and exhibitions, the placement of your exhibition stand can significantly impact your return on investment (ROI). Strategic placement not only increases visibility but also attracts more foot traffic, leading to higher engagement and potential sales.\n One of the first considerations for stand placement is location within the exhibition hall. High-traffic areas, such as near entrances or main aisles, are ideal for maximizing exposure. Additionally, positioning your stand near complementary businesses can create synergy and attract a shared audience.\n Another important factor is the design and layout of the stand itself. A well-designed stand that is visually appealing and easy to navigate will draw in visitors and encourage them to spend more time engaging with your brand. Incorporating interactive elements and clear signage can also enhance the visitor experience and increase the likelihood of conversions.\n Furthermore, it’s essential to consider the timing of your participation in trade shows. Attending events that align with your target audience and industry trends can lead to more qualified leads and better ROI. Researching and selecting the right events is a crucial step in the planning process.\n In conclusion, maximizing ROI through strategic exhibition stand placement involves careful consideration of location, design, and event selection. By optimizing these factors, businesses can enhance their visibility, engage with their audience, and ultimately drive better results from their trade show participation.",
+    snippet:
+      "Learn how to improve your trade show outcomes by strategically placing your exhibition stand for maximum exposure and engagement.",
+    keywords: [
+      "trade show ROI",
+      "exhibition stand placement",
+      "event marketing strategies",
+    ],
+    author: "Sophia Lee",
+    image: "https://picsum.photos/720/1283",
+    date: "2025-08-13",
+    fileAttached: "https://picsum.photos/720/1283",
+    component: "Line",
+  },
+  {
+    id: "5",
+    title: "Sustainability in Exhibition Stand Design: Eco-Friendly Practices",
+    content:
+      "As environmental concerns continue to grow, sustainability has become a key consideration in exhibition stand design. Businesses are increasingly seeking eco-friendly practices that minimize their environmental impact while still delivering effective marketing solutions.\n One of the primary ways to achieve sustainability in exhibition stands is through the use of recyclable and reusable materials. This includes opting for modular designs that can be easily disassembled and repurposed for future events. Additionally, using materials such as bamboo, recycled plastics, and biodegradable fabrics can further reduce the environmental footprint of the stand.\n Energy efficiency is another important aspect of sustainable exhibition stand design. Incorporating LED lighting, solar panels, and energy-efficient appliances can significantly reduce energy consumption during events. Additionally, utilizing natural light and ventilation can create a more comfortable environment for visitors while minimizing reliance on artificial lighting and climate control.\n Furthermore, businesses can implement waste reduction strategies by minimizing single-use items and promoting recycling at their stands. Providing clearly labeled recycling bins and encouraging visitors to participate in waste reduction efforts can contribute to a more sustainable event experience.\n In conclusion, sustainability in exhibition stand design is not only beneficial for the environment but also enhances brand reputation and appeals to eco-conscious consumers. By adopting eco-friendly practices, businesses can create impactful displays that align with their values and contribute to a greener future.",
+    snippet:
+      "Discover how to incorporate sustainable materials and practices into your exhibition stand design for a greener future.",
+    keywords: [
+      "sustainable exhibition design",
+      "eco-friendly trade shows",
+      "green event solutions",
+    ],
+    author: "Michael Brown",
+    image: "https://picsum.photos/720/1284",
+    date: "2025-08-14",
+    fileAttached: "https://picsum.photos/720/1284",
+    component: "Circle",
+  },
+  {
+    id: "6",
+    title: "The Future of Exhibition Stands: Trends to Watch in 2025",
+    content:
+      "As we look ahead to 2025, several emerging trends are shaping the future of exhibition stands. From technological advancements to evolving consumer preferences, businesses must stay informed and adapt their strategies to remain competitive in the ever-changing landscape of trade shows and events.\n One notable trend is the increasing integration of technology into exhibition stands. Augmented reality (AR) and virtual reality (VR) are becoming more prevalent, allowing brands to create immersive experiences that captivate visitors. Additionally, the use of interactive touchscreens and digital displays enables real-time engagement and personalized interactions.\n Another trend is the emphasis on sustainability and eco-friendly practices. As environmental awareness continues to grow, businesses are prioritizing sustainable materials and energy-efficient designs in their exhibition stands. This not only aligns with consumer values but also enhances brand reputation and appeal.\n Furthermore, there is a shift towards more experiential marketing approaches. Brands are focusing on creating memorable experiences that foster emotional connections with their audience. This includes incorporating interactive elements, live demonstrations, and engaging storytelling into their stand designs.\n In conclusion, the future of exhibition stands in 2025 is characterized by technological innovation, sustainability, and experiential marketing. By staying abreast of these trends and adapting their strategies accordingly, businesses can create impactful displays that resonate with their audience and drive success at trade shows and events.",
+    snippet:
+      "Stay ahead of the curve by exploring the latest trends in exhibition stand design and technology for 2025.",
+    keywords: [
+      "future exhibition trends",
+      "trade show innovations",
+      "2025 event marketing",
+    ],
+    author: "Olivia Wilson",
+    image: "https://picsum.photos/720/1285",
+    date: "2025-08-15",
+    fileAttached: "https://picsum.photos/720/1285",
+    component: "Zigzag",
   },
 ];
 

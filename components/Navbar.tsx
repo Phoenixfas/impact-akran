@@ -47,8 +47,8 @@ export default function Navbar() {
             <div className={`${style.navbar__right}`}>
                 <Link href="/">HOME</Link>
                 <Link href="/about-us">ABOUT US</Link>
-                <Link href="/services">SERVICES</Link>
-                <div className={style.products__nav}><Link href="/products">PRODUCTS</Link><NavBarMenu /></div>
+                <div className={style.products__nav}><Link href="/services">SERVICES</Link><NavBarMenu /></div>
+                <Link href="/blogs">BLOGS</Link>
                 <Link href="/contact-us" ><p className={`${style.contact}`}>CONTACT US</p></Link>
             </div>
             <div className={style.navbar__mobile}>
@@ -58,7 +58,7 @@ export default function Navbar() {
                 <Link href="/"><span onClick={handleButton}>HOME</span></Link>
                 <Link href="/about-us"><span onClick={handleButton}>ABOUT US</span></Link>
                 <Link href="/services"><span onClick={handleButton}>SERVICES</span></Link>
-                <Link href="/products"><span onClick={handleButton}>PRODUCTS</span></Link>
+                <Link href="/blogs"><span onClick={handleButton}>BLOGS</span></Link>
                 <Link href="/contact-us" ><p className={`${style.contact}`} onClick={handleButton}>CONTACT US</p></Link>
             </div>
 

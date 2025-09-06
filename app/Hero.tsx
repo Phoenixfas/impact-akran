@@ -54,7 +54,7 @@ export default function Hero() {
 
             <div id="hero-back" className={style.hero__back}>
                 <div className={style.hero__title}>
-                    <h1>Memorable, Meaningful Experiences</h1>
+                    <h1>Memorable, Meaningful <span className="[text-shadow:_0px_0px_20px_#000000]">Experiences</span></h1>
                 </div>
                 <div className="w-full">
                     <HeroSlider />
@@ -63,7 +63,7 @@ export default function Hero() {
 
             <div id="hero-front" className={style.hero__front}>
                 <div className={`${style.hero__title} ${style.dark}`}>
-                    <h1>Memorable, Meaningful Experiences</h1>
+                    <h1>Memorable, Meaningful <span className="[text-shadow:_0px_0px_20px_#000000]">Experiences</span></h1>
                 </div>
                 <div className="w-full">
                     <HeroSlider rev={true} />

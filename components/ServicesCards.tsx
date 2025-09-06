@@ -1,7 +1,7 @@
 import style from "../styles/Home.module.css"
 import { motion, AnimatePresence } from "framer-motion";
 // import Image from "next/image";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 // import ShineSvg from "../public/images/svgs/shine_animated.svg"
 // import Shine2Svg from "../public/images/svgs/shine2_animated.svg"
 // import Shine3Svg from "../public/images/svgs/shine3_animated.svg"
@@ -41,7 +41,7 @@ export default function ServicesCards({ serviceActive, services }: { serviceActi
                     {serviceActive === Number(service.id) && (
                         <motion.div variants={variants} initial={"hidden"} animate={"visible"} exit={"hidden"} className={`${style.services__cards} ${serviceActive === Number(service.id) && style.service__visible}`} >
                             {/* {hasWindow && <ReactPlayer url={"/videos/services/port.mov"} className={style.services__video}  />} */}
-                            <video src="/videos/hero.mp4" className={style.services__video} autoPlay loop muted playsInline></video>
+                            <video src="/videos/service_vid.MOV" className={style.services__video} autoPlay loop muted playsInline></video>
                             <motion.div
                                 initial={{ opacity: 0, y: 100 }}
                                 animate={{ opacity: 1, y: 0 }}
