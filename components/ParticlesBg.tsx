@@ -153,7 +153,7 @@ export default function ParticlesBg({ amount }: { amount: number }) {
       style: {
         width: "100%",
         height: "100%",
-        position: "absolute"
+        position: "fixed"
       },
       retina_detect: true
     }),
