@@ -3,7 +3,7 @@ import style from "../styles/layout.module.css";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { FaFacebookF, FaYoutube, FaTelegram, FaLinkedinIn, FaMapMarkerAlt, FaPhoneAlt, FaMobileAlt, FaEnvelope } from "react-icons/fa"
-import { useEffect, useState } from "react";
+import { useState } from "react";
 // import { useMutation } from "@apollo/client"
 // import {ADD_SUBSCRIBER} from "../graphql/mutations/subscriberMutations"
 
@@ -35,66 +35,66 @@ export default function Footer() {
   }
 
 
-  const [scrollVer, setScrollVer] = useState(0)
+  // const [scrollVer, setScrollVer] = useState(0)
 
-  useEffect(() => {
-    // Set the footer-bottom height based on the top-footer
-    const footer = document.getElementById("footer")
-    const footerTop = document.getElementById("footer-top");
-    const footerBottom = document.getElementById("footer-bottom");
-    if (!footerTop || !footerBottom) return;
-    const footerTopHeight = footerTop.clientHeight / 1.3;
-    // const footerHeight = footerTop.clientHeight + footerTop.clientHeight / 1.3;
-    // footer.style.height = footerHeight + "px";
-    footerBottom.style.setProperty("--bottom-height", footerTopHeight + "px");
+  // useEffect(() => {
+  // Set the footer-bottom height based on the top-footer
+  // const footer = document.getElementById("footer")
+  // const footerTop = document.getElementById("footer-top");
+  // const footerBottom = document.getElementById("footer-bottom");
+  // if (!footerTop || !footerBottom) return;
+  // const footerTopHeight = footerTop.clientHeight / 1.3;
+  // const footerHeight = footerTop.clientHeight + footerTop.clientHeight / 1.3;
+  // footer.style.height = footerHeight + "px";
+  // footerBottom.style.setProperty("--bottom-height", footerTopHeight + "px");
 
 
-    ////////////////////////////////////////////////////////////////////////////////////
-    ///// STAGGER EFFECT//////
-    // Get Element height
-    if (!footer) return;
-    const fHeight = footer.clientHeight;
+  ////////////////////////////////////////////////////////////////////////////////////
+  ///// STAGGER EFFECT//////
+  // Get Element height
+  // if (!footer) return;
+  // const fHeight = footer.clientHeight;
 
-    // const inView = () => {
-    //   // get window height
-    //   const windowHeight = window.innerHeight;
+  // const inView = () => {
+  //   // get window height
+  //   const windowHeight = window.innerHeight;
 
-    //   // get number of pixels that the document is scrolled
-    //   const scrollY = window.scrollY || window.pageYOffset;
-    //   setScrollVer(scrollY)
+  //   // get number of pixels that the document is scrolled
+  //   const scrollY = window.scrollY || window.pageYOffset;
+  //   setScrollVer(scrollY)
 
-    //   // get current scroll position (distance from the top of the page to the bottom of the current viewport)
-    //   const scrollPosition = scrollY + windowHeight;
+  //   // get current scroll position (distance from the top of the page to the bottom of the current viewport)
+  //   const scrollPosition = scrollY + windowHeight;
 
-    //   // get element position (distance from the top of the page to the bottom of the element)
-    //   const elementPosition = footer.getBoundingClientRect().top + scrollY + fHeight / 1.5;
+  //   // get element position (distance from the top of the page to the bottom of the element)
+  //   const elementPosition = footer.getBoundingClientRect().top + scrollY + fHeight / 1.5;
 
-    //   // is scroll position greater than element position? (is element in view?)
-    //   if (scrollPosition > elementPosition) {
-    //     return true;
-    //   }
+  //   // is scroll position greater than element position? (is element in view?)
+  //   if (scrollPosition > elementPosition) {
+  //     return true;
+  //   }
 
-    //   return false;
-    // }
+  //   return false;
+  // }
 
-    // animate element when it is in view
-    // const animate = () => {
-    //   if (inView()) {
-    //     // footerTop.classList.add(style.float)
-    //   } else {
-    //     // footerTop.classList.remove(style.float)
-    //   }
-    // }
+  // animate element when it is in view
+  // const animate = () => {
+  //   if (inView()) {
+  //     // footerTop.classList.add(style.float)
+  //   } else {
+  //     // footerTop.classList.remove(style.float)
+  //   }
+  // }
 
-    // listen for scroll event and call animate function
-    // document.addEventListener('scroll', animate);
+  // listen for scroll event and call animate function
+  // document.addEventListener('scroll', animate);
 
-    // //remove event listener
-    // return () => {
-    //   document.removeEventListener('scroll', animate);
-    // }
+  // //remove event listener
+  // return () => {
+  //   document.removeEventListener('scroll', animate);
+  // }
 
-  }, [scrollVer]);
+  // }, [scrollVer]);
 
 
   return (

@@ -126,12 +126,23 @@
   z-index: 1;
 }
 .about__middleCard {
+  position: relative;
   flex: 1;
   display: flex;
   flex-direction: column;
-  border-left: 3px solid #1a3d52;
-  padding: 0 30px;
+  padding: 30px;
   animation: cardslide 0.5s ease-in;
+}
+.about__middleCard::before {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  width: 30%;
+  height: 5px;
+  background-color: var(--secondary);
+  border-radius: 5px;
 }
 .about__middleCard:nth-last-of-type(1) {
   --middle-card: 50%;
@@ -141,10 +152,10 @@
 }
 @keyframes cardslide {
   0% {
-    transform: translateX(var(--middle-card));
+    transform: translateY(var(--middle-card));
   }
   100% {
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
 .about__middleCard h2 {
@@ -153,12 +164,14 @@
   margin: 0;
 }
 .about__middleCard p {
-  font-size: 1.2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .about__bottom {
   width: 100%;
-  padding: 50px 30px;
+  padding: 100px 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -167,9 +180,15 @@
 }
 .about__bottomCard {
   width: 350px;
-  background-color: #eee;
-  border: 2px solid var(--secondary);
-  color: #1a3d52;
+  background: linear-gradient(
+    45deg,
+    var(--primary),
+    var(--secondary),
+    var(--tertiary)
+  );
+  backdrop-filter: blur(10px);
+  border: 2px solid var(--primary);
+  color: #fff;
   border-radius: 20px;
   padding: 30px;
   animation: scaler 5s ease-in-out infinite;
@@ -202,8 +221,8 @@
   margin: 0;
   font-size: 1.8rem;
   text-align: center;
-  font-weight: bold;
-  color: var(--secondary);
+  font-weight: 500;
+  color: #fff;
   margin-bottom: 10px;
 }
 .about__bottomCard p {
@@ -211,6 +230,14 @@
   text-align: center;
 }
 
+/* ///////////////////////////////////////////////////////////////// */
+.border_image_dynamic {
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: none;
+  border-right: none;
+  border-image: url(../public/images/icons/film_border.png) 120 round;
+}
 /* ///////////////////////////////////////////////////////////////// */
 .testimonials {
   display: flex;

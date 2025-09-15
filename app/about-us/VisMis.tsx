@@ -1,10 +1,10 @@
 import style from "@/styles/About.module.css";
-// import BackgroundSvg from "../../public/images/svgs/background.svg"
+import BackgroundSvg from "../../public/images/svgs/background.svg"
 
 export default function VisMis() {
     return (
         <div className={style.about__bottom}>
-            {/* <BackgroundSvg className={style.background} /> */}
+            <BackgroundSvg className={style.background} />
             <div className={style.about__bottomCard}>
                 <h2>VISION</h2>
                 <p>
