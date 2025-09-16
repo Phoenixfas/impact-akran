@@ -9,12 +9,12 @@ import MadeWithLove from "./MadeWithLove";
 // import ServiceSection from "./ServiceSection";
 import Showreel from "./Showreel";
 import HomeC from "@/components/HomeC";
-import ParticlesBg from "@/components/ParticlesBg";
+// import ParticlesBg from "@/components/ParticlesBg";
 
 export default function Home() {
   return (
     <div className="w-full relative overflow-hidden">
-      <ParticlesBg amount={40} />
+      {/* <ParticlesBg amount={40} /> */}
       <Hero />
       <AboutSection />
       <Achievements />
