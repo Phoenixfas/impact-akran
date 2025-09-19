@@ -68,7 +68,7 @@ export default function HomeC() {
         {curlVisible && <CurlSvg className={style.curl} />}
       </div>
       <HomeCards />
-      <Link href={"/articles"}><div className={style.moreArticles}>More</div></Link>
+      <Link href={"/blogs"}><div className={style.moreArticles}>More</div></Link>
     </div>
   )
 }

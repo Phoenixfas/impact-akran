@@ -74,7 +74,7 @@ export default function HomeCards() {
         <div id="target" className={style.homeCards__cardsHolder}>
             <div id="moving-cards" className={style.homeCards__cards}>
                 {blogs && blogs.map((card) => (
-                    <Link key={card.id} href={`/articles/${card.id}`} className={style.homeCards__card_i} >
+                    <Link key={card.id} href={`/blogs/${card.id}`} className={style.homeCards__card_i} >
                         <div className={style.homeCards__card}
                             onMouseEnter={(e) => {
                                 const textElement = e.currentTarget.querySelector('#card-text')
