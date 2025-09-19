@@ -49,7 +49,7 @@ export default function Navbar() {
                 <Link href="/about-us">ABOUT US</Link>
                 <div className={style.products__nav}><Link href="/services">SERVICES</Link><NavBarMenu /></div>
                 <Link href="/blogs">BLOGS</Link>
-                <Link href="/contact-us" ><p className={`${style.contact}`}>CONTACT US</p></Link>
+                <Link href="/contact" ><p className={`${style.contact}`}>CONTACT US</p></Link>
             </div>
             <div className={style.navbar__mobile}>
                 {show ? <CgClose onClick={handleButton} color="#1A3D52" size={toggle ? 30 : 35} /> : <CgMenuRight onClick={handleButton} color={"#1A3D52"} size={toggle ? 30 : 35} />}
@@ -59,7 +59,7 @@ export default function Navbar() {
                 <Link href="/about-us"><span onClick={handleButton}>ABOUT US</span></Link>
                 <Link href="/services"><span onClick={handleButton}>SERVICES</span></Link>
                 <Link href="/blogs"><span onClick={handleButton}>BLOGS</span></Link>
-                <Link href="/contact-us" ><p className={`${style.contact}`} onClick={handleButton}>CONTACT US</p></Link>
+                <Link href="/contact" ><p className={`${style.contact}`} onClick={handleButton}>CONTACT US</p></Link>
             </div>
 
         </div>

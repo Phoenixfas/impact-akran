@@ -140,7 +140,7 @@ export default function Footer() {
           <p><Link href={"/about-us"}>About Us</Link></p>
           <p><Link href={"/services"}>Services</Link></p>
           <p><Link href={"/blogs"}>Blogs</Link></p>
-          <p><Link href={"/contact-us"}>Contact Us</Link></p>
+          <p><Link href={"/contact"}>Contact Us</Link></p>
         </div>
         <div className={style.footerRow}>
           <h2>Business hour</h2>
